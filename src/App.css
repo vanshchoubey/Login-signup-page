@@ -1,0 +1,96 @@
+.ul-nav{
+  width: 100vw;
+  display: flex;
+  color: #212121;
+  font-size: x-large;
+  padding: 10px; 
+  gap: 88vw;
+   background-color: wheat;
+}
+.main{
+  height: 100vh;
+  width: 100vw;
+  background-color: #212121;
+  
+}
+.logout{
+  font-size: large  ;
+  background-color: #212121;
+  color: wheat;
+  padding: 3px 10px;
+  border-radius: 10px;
+  cursor: pointer;
+
+
+}
+.signup-form{
+  height: 50vh;
+  width: 45vw;
+  background-color:wheat;
+ display:flex ;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 107px;
+  left:410px;
+  border-radius:20px ;
+  box-shadow: 0px 0px 20px rgb(145, 144, 141);
+}
+.input{
+  /* margin-top: -50px; */
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  height: 60px;
+  width: 60vh;
+  border-radius: 20px;
+  outline: none;
+  padding: 5px 25px;
+  font-size: large;
+}
+.btn{
+  height: 50px;
+  width: 70px;
+  background-color: #212121;
+  color: wheat;
+}
+.heading{
+  font-size:50px;
+  margin-left: 9vw;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+.heading.welcome{
+  font-size:50px;
+  margin-left: 3vw;
+}
+.vanshMain{
+  font-weight:500;
+}
+.animateOpen{
+	animation:moveOpen 2s;
+}
+@keyframes moveOpen 
+	{
+  from {-webkit-transform: translate(0,-100px);}
+  90% {-webkit-transform: translate(0,25px);}
+  }
+.hh1{
+  position: relative;
+  left: 400px;
+}
+.hh1:disabled,
+button[disabled]{
+  border: 1px solid #999999;
+  background-color: #6d6666;
+  color: #141313;
+}
+
+.mainform{
+  position: fixed;
+}
+.errorMsg{
+  font-weight: bold;
+    color: red;
+    font-size: large;
+}
